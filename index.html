@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .navbar h1{
+            display: inline-block;
+        }
+        .navbar{
+            display: flex;
+            background-color: black;
+        }
+        .left{
+            margin-left: 170px;
+            color: white;
+        }
+        .left i{
+            font-size: 25px;
+        }
+        .right{
+            margin-left: 600px;
+        }
+        .right{
+            padding: 30px;
+        }
+        .right a{
+            text-decoration: none;
+            color: white;
+            padding: 0px 20px;
+        }
+        .right a:hover{
+            color: greenyellow;
+        }
+        .middle::before{
+            content: "";
+            background: url(/Images/WhatsApp\ Image\ 2022-11-25\ at\ 21.11.26.jpg) no-repeat center center/cover;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+        }
+        .middle h1{
+            display: inline-block;
+            padding-left: 50px;
+            font-size: 46px;
+            position: relative;
+            bottom: 250px;
+        }
+        .middle img{
+            height: 500px;
+            margin-top: 120px;
+            margin-left: 200px;
+        }
+        .middle a{
+            text-decoration: none;
+            color: white;
+            background-color: black;
+            padding: 15px;
+            position: relative;
+            left: 570px;
+            bottom: 230px;
+            border-radius: 20px;
+        }
+        .imag{
+            display: flex;
+            justify-content: center;
+        }
+        .imag img{
+            padding: 20px;
+        }
+        .blank h1{
+            background-color: pink;
+            display: flex;
+            justify-content: center;
+            padding: 200px;
+            font-size: 50px;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: auto auto auto auto auto;
+            background-color: black;
+            color: aliceblue;
+            font-size: 20px;
+            width: 100%;
+        }
+        .logo{
+            width: 100px;
+            height:33px;
+        }
+        ul{
+            list-style: none;
+        }
+        .first{
+            color: rgb(182, 177, 177);
+            font-size: 16px;
+        }
+        ul li a{
+            color: white;
+            font-size: 13px;
+            text-decoration: none;    
+        }
+        ul li a:hover{
+            color: yellow;
+        }
+        .item5 img{
+            width: 40px;
+        }
+        .item5 ul li{
+            display: inline-block;
+            margin: 2px;
+        }
+        ul li a{
+            color: white;
+            font-size: 10px;
+            text-decoration: none;    
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="left">
+            <i class="fa-brands fa-spotify"></i>
+            <h1>Spotify</h1>
+        </div>
+        <div class="right">
+            <a href="#">Premium</a>
+            <a href="#">Support</a>
+            <a href="#">Download</a>
+            <a href="#">Sign up</a>
+            <a href="#">Log in</a>
+        </div>
+    </div>
+
+    <div class="middle">
+        <div class="img">
+            <img src="/Images/WhatsApp Image 2022-11-25 at 21.11.27.jpg" alt="Mobile">
+            <h1>Play millions of songs and podcasts, for free.</h1>
+            <a href="#">GET SPOTIFY FREE</a>
+        </div>
+    </div>
+
+    <div class="why">
+        <h1>Why Spotify</h1>
+        <div class="imag">
+            <img src="./Images/WhatsApp Image 2022-11-25 at 21.11.28.jpg" alt="">
+            <img src="/Images/WhatsApp Image 2022-11-25 at 21.11.29.jpg" alt="">
+            <img src="/Images/WhatsApp Image 2022-11-25 at 21.11.30.jpg" alt="">
+            <img src="/Images/WhatsApp Image 2022-11-25 at 21.11.31.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="blank">
+        <h1>Its free, no credit card required.</h1>
+    </div>
+    
+    <div class="container">
+        <div class="item1">
+           <ul>
+                <li> <img src="spotify.png" class="logo"></li>
+           </ul>
+        </div>
+        <div class="item2">
+            <ul>
+                <li class="first"> Company</li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">For the record</a></li>
+           </ul>
+        </div>
+        <div class="item3"> 
+            <ul>
+                <li class="first">Communities</li>
+                <li><a href="#">For Artists</a></li>
+                <li><a href="#">Developers</a></li>
+                <li><a href="#">Advertising </a></li>
+                <li><a href="#">Investors</a></li>
+                <li><a href="#">Vendors</a></li>
+            </ul>
+        </div>
+        <div class="item4">
+            <ul>
+                <li class="first">Useful Links</li> 
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Web Player</a></li>
+                <li><a href="#">Free Mobile App</a></li>
+                <li><a href="#">Car Thing</a></li>
+            </ul>
+        </div>
+        <div class="item5"> <ul>
+            <li> <img src="inst.png"></li>
+            <li> <img src="twitter.png"></li>
+            <li> <img src="fb.png"></li>
+       </ul></div>
+</body>
+</html>
